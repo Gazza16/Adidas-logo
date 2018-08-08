@@ -112,13 +112,12 @@ body, #adidas, #adidas .stripes {
  * Vendor:      Fontfabric
  * License URL: http://www.fontspring.com/fflicense/fontfabric
  */
+
+
 @font-face {
-    font-family: "ZagBoldRegular";
-    src: url("/assets/fonts/ZagBold/Zag_Bold-webfont.eot");
-    src: url("/assets/fonts/ZagBold/Zag_Bold-webfont.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/ZagBold/Zag_Bold-webfont.woff") format("woff"),
-         url("/assets/fonts/ZagBold/Zag_Bold-webfont.ttf") format("truetype"),
-         url("/assets/fonts/ZagBold/Zag_Bold-webfont.svg#ZagBoldRegular") format("svg");
+    font-family: "adidas";
+    src: url("adidas/adidas.otf") format("truetype");
+
     font-weight: normal;
     font-style: normal;
 }
@@ -134,10 +133,10 @@ body, #adidas, #adidas .stripes {
 }
 #info .post-title {
     color: inherit;
-    font-family: "ZagBoldRegular", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-family: "adidas", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 48px;
     margin: 0;
-    padding: 30px 0 0;
+    padding: 0px 0 0;
 }
 #info .post-info {
     line-height: 1.35em;
